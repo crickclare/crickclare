@@ -1,0 +1,164 @@
+{
+    "tags": [
+        {
+            "id": 1,
+            "name": "BCCI",
+            "description": "The Board of Control for Cricket in India (BCCI) is the governing body for cricket in India. Established in 1928, it is one of the most influential and financially powerful cricket boards globally. BCCI oversees domestic cricket tournaments, the Indian national cricket team, and the management of cricket-related activities in the country. It is also responsible for organizing the Indian Premier League (IPL), one of the most lucrative cricket leagues in the world. The BCCI plays a key role in the global governance of cricket through its membership in the International Cricket Council (ICC)."
+        },
+        {
+            "id": 2,
+            "name": "Rohit Sharma",
+            "description": "Rohit Sharma is an Indian cricketer, widely regarded as one of the most talented batsmen in modern cricket. Born on April 30, 1987, he is known for his elegant stroke play and has an exceptional record in limited-overs cricket, including multiple double centuries in One-Day Internationals (ODIs). Rohit is the captain of the Indian national team in limited-overs formats (ODIs and T20Is) and is also the captain of Mumbai Indians in the Indian Premier League (IPL), leading the team to several championships. His ability to play big innings in crucial moments has earned him a reputation as one of the game's best."
+        },
+        {
+            "id": 3,
+            "name": "Champion Trophy 2025",
+            "description": "The ICC Champions Trophy 2025 is a cricket tournament scheduled to be held in Pakistan & Dubai. It is a prestigious event organized by the International Cricket Council (ICC) featuring the top cricketing nations competing in a limited-overs format (50 overs per side). The Champions Trophy has been held intermittently, with the most recent tournament taking place in 2017. It is known for its shorter format and high-stakes matches. The 2025 edition will mark the return of the tournament after a long hiatus, and it is expected to showcase some of the best international cricket teams battling for supremacy."
+        },
+        {
+            "id": 4,
+            "name": "WPL 2025",
+            "description": "The Board of Control for Cricket in India (BCCI) is the governing body for cricket in India. Established in 1928, it is one of the most influential and financially powerful cricket boards globally. BCCI oversees domestic cricket tournaments, the Indian national cricket team, and the management of cricket-related activities in the country. It is also responsible for organizing the Indian Premier League (IPL), one of the most lucrative cricket leagues in the world. The BCCI plays a key role in the global governance of cricket through its membership in the International Cricket Council (ICC)."
+        },
+        {
+            "id": 5,
+            "name": "Ashleigh Gardner",
+            "description": "Rohit Sharma is an Indian cricketer, widely regarded as one of the most talented batsmen in modern cricket. Born on April 30, 1987, he is known for his elegant stroke play and has an exceptional record in limited-overs cricket, including multiple double centuries in One-Day Internationals (ODIs). Rohit is the captain of the Indian national team in limited-overs formats (ODIs and T20Is) and is also the captain of Mumbai Indians in the Indian Premier League (IPL), leading the team to several championships. His ability to play big innings in crucial moments has earned him a reputation as one of the game's best."
+        },
+        {
+            "id": 6,
+            "name": "Beth Mooney",
+            "description": "The ICC Champions Trophy 2025 is a cricket tournament scheduled to be held in Pakistan & Dubai. It is a prestigious event organized by the International Cricket Council (ICC) featuring the top cricketing nations competing in a limited-overs format (50 overs per side). The Champions Trophy has been held intermittently, with the most recent tournament taking place in 2017. It is known for its shorter format and high-stakes matches. The 2025 edition will mark the return of the tournament after a long hiatus, and it is expected to showcase some of the best international cricket teams battling for supremacy."
+        },
+        {
+            "id": 7,
+            "name": "Gujarat Giants",
+            "description": "The ICC Champions Trophy 2025 is a cricket tournament scheduled to be held in Pakistan & Dubai. It is a prestigious event organized by the International Cricket Council (ICC) featuring the top cricketing nations competing in a limited-overs format (50 overs per side). The Champions Trophy has been held intermittently, with the most recent tournament taking place in 2017. It is known for its shorter format and high-stakes matches. The 2025 edition will mark the return of the tournament after a long hiatus, and it is expected to showcase some of the best international cricket teams battling for supremacy."
+        },
+        {
+            "id": 8,
+            "name": "Northern Superchargers (Women) Cricket Team",
+            "description": "Northern Superchargers are a franchise 100-ball cricket side based in the English city of Leeds. The team represents the areas of North East England and Yorkshire in The Hundred competition, which first took place during the 2021 English and Welsh cricket season. Both sides play at Headingley Cricket Ground."
+        },
+        {
+            "id": 9,
+            "name": "Sunrisers Hyderabad",
+            "description": "Sunrisers Hyderabad (stylised as SunRisers Hyderabad, abbr. SRH) are a professional franchise cricket team based in Hyderabad, Telangana, India, that plays in the Indian Premier League (IPL). The franchise is owned by Kalanithi Maran of the SUN Group and was founded in 2012 after the Hyderabad-based Deccan Chargers were terminated by the IPL. The team is currently coached by Daniel Vettori and captained by Pat Cummins. Their primary home ground is the Rajiv Gandhi International Cricket Stadium in Hyderabad, which has a capacity of 39,000"
+        },
+        {
+            "id": 10,
+            "name": "England Cricket Team",
+            "description": "The England men's cricket team represents England and Wales in international cricket. Since 1997, it has been governed by the England and Wales Cricket Board (ECB), having been previously governed by Marylebone Cricket Club (the MCC) since 1903. England, as a founding nation, is a Full Member of the International Cricket Council (ICC) with Test, One Day International (ODI) and Twenty20 International (T20I) status. Until the 1990s, Scottish and Irish players also played for England as those countries were not yet ICC members in their own right."
+        },
+        {
+            "id": 11,
+            "name": "The Hundred",
+            "description": "The Hundred is a professional Cricket league in United Kingdom and is the only cricket league in the world that played in 100-ball format. It is organised by England and Wales Cricket Board (ECB) every year in month of July and August. The Hundred is one of the Big Four major cricket tournament organised by ECB, alongside the County Championship, the One-Day Cup and the T20 Blast. The Hundred comprises 8 teams, with 7 in England and 1 in Wales."
+        },
+        {
+            "id": 12,
+            "name": "The Hundred Women's",
+            "description": "The Hundred is a professional Cricket league in United Kingdom and is the only cricket league in the world that played in 100-ball format. It is organised by England and Wales Cricket Board (ECB) every year in month of July and August. The Hundred is one of the Big Four major cricket tournament organised by ECB, alongside the County Championship, the One-Day Cup and the T20 Blast. The Hundred comprises 8 teams, with 7 in England and 1 in Wales."
+        },
+        {
+            "id": 13,
+            "name": "Northern Superchargers (Men's) Cricket Team",
+            "description": "Northern Superchargers are a franchise 100-ball cricket side based in the English city of Leeds. The team represents the areas of North East England and Yorkshire in The Hundred competition, which first took place during the 2021 English and Welsh cricket season. Both sides play at Headingley Cricket Ground."
+        },
+        {
+            "id": 14,
+            "name": "Javagal Srinath",
+            "description": "Northern Superchargers are a franchise 100-ball cricket side based in the English city of Leeds. The team represents the areas of North East England and Yorkshire in The Hundred competition, which first took place during the 2021 English and Welsh cricket season. Both sides play at Headingley Cricket Ground."
+        },
+        {
+            "id": 15,
+            "name": "Nitin Menon",
+            "description": "Sunrisers Hyderabad (stylised as SunRisers Hyderabad, abbr. SRH) are a professional franchise cricket team based in Hyderabad, Telangana, India, that plays in the Indian Premier League (IPL). The franchise is owned by Kalanithi Maran of the SUN Group and was founded in 2012 after the Hyderabad-based Deccan Chargers were terminated by the IPL. The team is currently coached by Daniel Vettori and captained by Pat Cummins. Their primary home ground is the Rajiv Gandhi International Cricket Stadium in Hyderabad, which has a capacity of 39,000"
+        },
+        {
+            "id": 16,
+            "name": "ICC",
+            "description": "The England men's cricket team represents England and Wales in international cricket. Since 1997, it has been governed by the England and Wales Cricket Board (ECB), having been previously governed by Marylebone Cricket Club (the MCC) since 1903. England, as a founding nation, is a Full Member of the International Cricket Council (ICC) with Test, One Day International (ODI) and Twenty20 International (T20I) status. Until the 1990s, Scottish and Irish players also played for England as those countries were not yet ICC members in their own right."
+        },
+        {
+            "id": 17,
+            "name": "India Cricket Team",
+            "description": "The England men's cricket team represents England and Wales in international cricket. Since 1997, it has been governed by the England and Wales Cricket Board (ECB), having been previously governed by Marylebone Cricket Club (the MCC) since 1903. England, as a founding nation, is a Full Member of the International Cricket Council (ICC) with Test, One Day International (ODI) and Twenty20 International (T20I) status. Until the 1990s, Scottish and Irish players also played for England as those countries were not yet ICC members in their own right."
+        },
+        {
+            "id": 18,
+            "name": "Marcus Stoinis",
+            "description": "Marcus Peter Stoinis (born 16 August 1989) is an Australian international cricketer who represents the Australia national cricket team in One Day International and Twenty20 International cricket. He is a right-handed batting all-rounder who bowls right-arm medium. Domestically, Stoinis captained Melbourne Stars in the 2024–25 Big Bash League and has played Sheffield Shield cricket for Western Australia and Victoria."
+        },
+        {
+            "id": 19,
+            "name": "Cricket Australia",
+            "description": "The Australia national cricket team represents Australia in men's international cricket. Along with England, it is the joint oldest team in Test cricket history, playing and winning the first ever Test match in 1877; the team also plays One-Day International (ODI) and Twenty20 International (T20I) cricket, participating in both the first ODI, against England in the 1970–71 season and the first T20I, against New Zealand in the 2004–05 season, winning both games. The team draws its players from teams playing in the Australian domestic competitions – the Sheffield Shield, the Australian domestic limited-overs cricket tournament and the Big Bash League. Australia are the current ICC World Test Championship and ICC Cricket World Cup champions. They are regarded as the most successful national team in the history of cricket."
+        },
+        {
+            "id": 20,
+            "name": "Retirement",
+            "description": "Retirement is the withdrawal from one's position or occupation or from one's active working life. A person may also semi-retire by reducing work hours or workload. Many people choose to retire when they are elderly or incapable of doing their job for health reasons."
+        },
+        {
+            "id": 21,
+            "name": "ODI",
+            "description": "One Day International (ODI) is a format of cricket, played between two teams with international status, in which each team faces a fixed number of fifty overs, with the game lasting up to 7 hours. The Cricket World Cup, generally held every four years, is played in this format. They are major matches and considered the highest standard of List A, limited-overs competition."
+        },
+        {
+            "id": 22,
+            "name": "Pat Cummins",
+            "description": "Patrick James Cummins (born 8 May 1993) is an Australian international cricketer who captains the Australia men's national cricket team in Test and One Day International cricket. Cummins is widely regarded as one of the finest fast bowlers of his generation. He is also known for being a handy lower-order batsman. Cummins was a member of the Australian team that won the 2015 ICC Cricket World Cup, vice-captain of the 2021 ICC Men's T20 World Cup win, and was the winning captain of the 2021–23 ICC World Test Championship and the 2023 ICC Cricket World Cup."
+        },
+        {
+            "id": 23,
+            "name": "Josh Hazlewood",
+            "description": "Josh Reginald Hazlewood (born 8 January 1991) is an Australian international cricketer. He is a tall pace bowler known for his accuracy and has been compared to former Australian paceman Glenn McGrath. Hazlewood currently ranks no. 2 in ODI, no. 7 in T20I and no. 2 in Test in the ICC Men's Player Rankings. He won multiple ICC tournaments with the Australian team: the 2015 Cricket World Cup, the 2021 T20 World Cup, and the 2023 Cricket World Cup."
+        },
+        {
+            "id": 24,
+            "name": "Avishek Dalmiya",
+            "description": "Avishek Dalmiya is a prominent figure in Indian cricket administration and has served as the president of the Cricket Association of Bengal (CAB). His leadership has been significant in promoting and organizing cricketing activities in West Bengal."
+        },
+        {
+            "id": 25,
+            "name": "Rohan Jaitley",
+            "description": "Rohan Jaitley is the president of the Delhi & District Cricket Association (DDCA). He is known for his efforts to enhance the infrastructure and provide support to cricketers in Delhi, further contributing to the development of the game in the capital city."
+        },
+        {
+            "id": 26,
+            "name": "Sanjay Naik",
+            "description": "Sanjay Naik serves as the secretary of the Mumbai Cricket Association (MCA). He has been instrumental in improving the facilities and creating opportunities for cricketers in Mumbai, a city with a rich cricketing history."
+        },
+        {
+            "id": 27,
+            "name": "Prabhtej Singh Bhatia",
+            "description": "Prabhtej Singh Bhatia is an a former president of chhattisgarh cricket assosiation and a treasurer of the BCCI."
+        },
+        {
+            "id": 28,
+            "name": "Devajit Saikia",
+            "description": "Devajit Saikia is an Indian advocate, a former first class cricketer and a cricket administrator. Devajit Saikia is the secretary of the BCCI. He replaced Jay Shah, as the new Secretary of BCCI, with the latter being elected as the Chairperson of ICC. He also currently holds the position of joint secretary of Board of Control for Cricket in India. Apart from that, Saikia is a Board Director of ICC representing the BCCI."
+        },
+        {
+            "id": 29,
+            "name": "Vijay Tagore",
+            "description": ""
+        },
+        {
+            "id": 30,
+            "name": "IPL 2025",
+            "description": ""
+        },
+        {
+            "id": 31,
+            "name": "UP Warriorz",
+            "description": "UP Warriorz are an Indian professional franchise women's cricket team that compete in the Women's Premier League (WPL), based in Lucknow, Uttar Pradesh. The team is owned by Capri Global. The team is coached by Jon Lewis and captained by Alyssa Healy / Deepti Sharma. The side reached the eliminator at the inaugural edition of the WPL, but lost to Mumbai Indians."
+        },
+        {
+            "id": 32,
+            "name": "Royal Challengers Bengaluru",
+            "description": "Royal Challengers Bengaluru, formerly known as Royal Challengers Bangalore, commonly known as RCB, is a professional franchise cricket team based in Bengaluru, Karnataka, competing in the Indian Premier League. Founded in 2008 by United Spirits, the team is named after the liquor brand, Royal Challenge. The M. Chinnaswamy Stadium in Bengaluru is their home ground."
+        }
+    ]
+}
