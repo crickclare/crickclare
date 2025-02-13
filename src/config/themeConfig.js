@@ -1,4 +1,4 @@
-const APP_URL = "https://crickclare.com";
+const APP_URL = "https://www.crickclare.com";
 const themeConfig = {
 
 };
