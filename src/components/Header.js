@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation"
 import { Search, Sun, Moon, Menu, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { useTheme } from "@/contexts/ThemeContext"
+import Image from "next/image"
 
 export default function Header() {
   const [searchTerm, setSearchTerm] = useState("")
@@ -54,9 +55,16 @@ export default function Header() {
             href="/"
             className="text-2xl font-bold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
           >
-            Blog & News
+            <div className="relative w-full" style={{ maxWidth: '150px' }}>
+              <Image
+                src='/images/logo/light-logo.png'
+                alt="CrickClare"
+                layout="responsive"
+                width={150}
+                height={50}
+              />
+            </div>
           </Link>
-
           <div className="flex items-center space-x-4">
             <button
               onClick={toggleSearch}

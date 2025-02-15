@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -11,8 +12,17 @@ export default function Footer() {
               href="/"
               className="text-2xl font-bold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
             >
-              Blog & News
+              <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
+                <Image
+                  src='/images/logo/light-logo.png'
+                  alt="CrickClare"
+                  layout="intrinsic"
+                  width={200}   
+                  height={50} 
+                />
+              </div>
             </Link>
+
             <p className="mt-4 text-gray-600 dark:text-gray-400">
               Stay informed with the latest news and insights from our expert contributors.
             </p>
@@ -73,7 +83,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-800 text-center text-gray-600 dark:text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Blog & News. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Crick Clare. All rights reserved.</p>
         </div>
       </div>
     </footer>

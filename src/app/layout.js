@@ -9,8 +9,8 @@ import BackToTop from "@/components/BackToTop"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Blog & News Template",
-  description: "A simple blog and news website template built with Next.js",
+  title: "Cricket Related Latest News | CrickClare",
+  description: "Get Schedules of International and Domestic cricket matches along with Latest News and ICC Cricket Rankings of Players on CrickClare",
 }
 
 export default function RootLayout({ children }) {
