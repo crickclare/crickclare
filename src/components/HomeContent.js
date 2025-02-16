@@ -80,9 +80,9 @@ export default function HomeContent() {
   return (
     <div className={`container mx-auto px-4 py-12 ${theme === "dark" ? "dark" : ""}`}>
       <div className="max-w-2xl mx-auto text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">Explore Our Articles</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">Explore Our News & Articles</h1>
         <p className="text-lg text-gray-600 dark:text-gray-400">
-          Discover insights, tutorials, and updates from our expert contributors across various topics
+          Get the latest cricket news, match updates, player stats and much more in one place. Stay updated with everything cricket!
         </p>
       </div>
 

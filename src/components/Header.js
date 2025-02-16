@@ -81,10 +81,10 @@ export default function Header() {
               {theme === "light" ? <Moon size={20} /> : <Sun size={20} />}
             </button>
             <Link
-              href="/contact"
+              href="/contact-us"
               className="hidden md:inline-block px-4 py-2 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-all duration-300"
             >
-              Contact
+              Contact Us
             </Link>
             <button
               onClick={toggleMenu}

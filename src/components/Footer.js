@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react"
 import Image from "next/image"
 
 export default function Footer() {
@@ -17,14 +17,14 @@ export default function Footer() {
                   src='/images/logo/light-logo.png'
                   alt="CrickClare"
                   layout="intrinsic"
-                  width={200}   
-                  height={50} 
+                  width={200}
+                  height={50}
                 />
               </div>
             </Link>
 
             <p className="mt-4 text-gray-600 dark:text-gray-400">
-              Stay informed with the latest news and insights from our expert contributors.
+              Get the latest cricket news, match updates, player stats and much more in one place. Stay updated with everything cricket!
             </p>
           </div>
           <div>
@@ -67,23 +67,20 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
-                <Facebook size={24} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
-                <Twitter size={24} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+              <Link href="https://youtube.com/@crick_clare?si=8Ukzb04zwCZ5B_v3" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                <Youtube size={24} />
+              </Link>
+              <Link href="https://www.instagram.com/crick_clare/" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
                 <Instagram size={24} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
-                <Linkedin size={24} />
-              </a>
+              </Link>
+              <Link href="#" className="text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                <Twitter size={24} />
+              </Link>
             </div>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-800 text-center text-gray-600 dark:text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Crick Clare. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} <Link className="font-bold" href={`/`}>Crick Clare</Link>. All rights reserved.</p>
         </div>
       </div>
     </footer>

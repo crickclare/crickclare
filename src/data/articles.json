@@ -152,7 +152,7 @@
       "date": "2025-02-07",
       "image": "https://www.crickclare.com/images/articles/bcci.jpg",
       "author": {
-        "name": "Shreyansh Vaghasiya",
+        "name": "Crick Clare",
         "bio": "Crick Clare is your 360 degree view on Sports news, opinion and behind the scenes in Indian sporting scenario. Crick Clare brings you all the Indian and world cricket action. Crick Clare is your one stop destination for Sports."
       },
       "categoryIds": [
@@ -178,7 +178,7 @@
       "date": "2025-02-07",
       "image": "https://www.crickclare.com/images/articles/ipl.webp",
       "author": {
-        "name": "Shreyansh Vaghasiya",
+        "name": "Crick Clare",
         "bio": "Crick Clare is your 360 degree view on Sports news, opinion and behind the scenes in Indian sporting scenario. Crick Clare brings you all the Indian and world cricket action. Crick Clare is your one stop destination for Sports."
       },
       "categoryIds": [
@@ -321,6 +321,57 @@
       "tagsIds": [
         30,
         32
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Sneh Rana replaces injured Shreyanka Patil at RCB in WPL2025",
+      "slug": "sneh-rana-replaces-injured-shreyanka-patil-at-rcb",
+      "excerpt": "Royal Challengers Bengaluru's (RCB) offspinner Shreyanka Patil has been ruled out from WPL 2025 due to injury. Spin-bowling allrounder Sneh Rana has replaced her in the squad. The details of Patil's injury are not known.",
+      "content": "<div><p><a href='https://www.crickclare.com/tag/royal-challengers-bengaluru'><b>Royal Challengers Bengaluru's (RCB)</b></a> offspinner <a href='https://www.crickclare.com/tag/shreyanka-patil'><b>Shreyanka Patil</b></a> has been ruled out from <a href='https://www.crickclare.com/tag/wpl-2025'><b>WPL 2025</b></a> due to injury. Spin-bowling allrounder <a href='https://www.crickclare.com/tag/sneh-rana'><b>Sneh Rana</b></a> has replaced her in the squad. The details of Patil's injury are not known.</p><p>Sneh Rana had previously played for <a href='https://www.crickclare.com/tag/gujarat-giants'><b>Gujarat Giants (GG)</b></a> and also captained the team in the first season when <a href='https://www.crickclare.com/tag/beth-mooney'><b>Beth Mooney</b></a> was sidelined by injury after the first game. Surprisingly, Rana went unsold in the auction held last December.</p><p>Patil was one of the standout performers for RCB in their title-winning run last year and finished the tournament as the highest wicket-taker with 13 scalps in eight matches, with an economy of 7.30. Overall, she has played 15 matches for RCB and has taken 19 wickets.</p><p>RCB had lost key players like Sophie Devine (unavailable), Kate Cross, Asha Sobhana and Sophie Molineux (all injured) ahead of the season. However, they kicked off this WPL with a pulsating six-wicket win over Giants in Vadodara on Friday.</p></div>",
+      "time": "22:00",
+      "date": "2025-02-15",
+      "image": "https://www.crickclare.com/images/articles/sneh-rana.jpg",
+      "author": {
+        "name": "Crick Clare",
+        "bio": "Crick Clare is your 360 degree view on Sports news, opinion and behind the scenes in Indian sporting scenario. Crick Clare brings you all the Indian and world cricket action. Crick Clare is your one stop destination for Sports."
+      },
+      "categoryIds": [
+        4
+      ],
+      "tagsIds": [
+        4,
+        6,
+        7,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Yashasvi Jaiswal ruled out of Ranji Trophy semi-final due to ankle pain",
+      "slug": "yashasvi-jaiswal-ruled-out-of-ranji-trophy-semi-final",
+      "excerpt": "Indian opener Yashasvi Jaiswal has been ruled out of the Ranji Trophy 2025 semi-finals due to ankle pain.",
+      "content": "<div><p>On February 11, 2025, after failing to secure a place in the <a href='https://www.crickclare.com/tag/champion-trophy-2025'><b>Champion Trophy 2025</b></a> final team, <a href='https://www.crickclare.com/tag/yashasvi-jaiswal'><b>Yashasvi Jaiswal</b></a> had confirmed his availability for the <a href='https://www.crickclare.com/tag/ranji-trophy-2025'><b>Ranji Trophy 2025</b></a> semi-final match.</p><p>However, due to his ankle pain, Jaiswal will now miss the semi-finals and will go to the <a href='https://www.crickclare.com/tag/bcci'><b>BCCI's</b></a> Centre of Excellence for rehabilitation, where he will focus on his recovery.</p><p>Jaiswal is included in the non-traveling reserves for the Champion Trophy 2025 <a href='https://www.crickclare.com/tag/india-cricket-team'><b>Indian cricket team</b></a>.</p><p>However, Indian T20I captain <a href='https://www.crickclare.com/tag/suryakumar-yadav'><b>Suryakumar Yadav</b></a> has recovered and is fit for the Ranji Trophy semi-finals, after experiencing a slight niggle during the Mumbai vs Haryana quarter-final match in Kolkata.</p></div>",
+      "time": "12:33",
+      "date": "2025-02-16",
+      "image": "https://www.crickclare.com/images/articles/yashsvi-jaiswal.avif",
+      "author": {
+        "name": "Crick Clare",
+        "bio": "Crick Clare is your 360 degree view on Sports news, opinion and behind the scenes in Indian sporting scenario. Crick Clare brings you all the Indian and world cricket action. Crick Clare is your one stop destination for Sports."
+      },
+      "categoryIds": [
+        1
+      ],
+      "tagsIds": [
+        36,
+        1,
+        3,
+        17,
+        21,
+        35,
+        37
       ]
     }
   ]

@@ -9,7 +9,7 @@ import BackToTop from "@/components/BackToTop"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Cricket Related Latest News | CrickClare",
+  title: "Latest and Breaking Cricket News | CrickClare",
   description: "Get Schedules of International and Domestic cricket matches along with Latest News and ICC Cricket Rankings of Players on CrickClare",
 }
 

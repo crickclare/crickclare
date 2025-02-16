@@ -18,22 +18,22 @@
         {
             "id": 4,
             "name": "WPL 2025",
-            "description": "The Board of Control for Cricket in India (BCCI) is the governing body for cricket in India. Established in 1928, it is one of the most influential and financially powerful cricket boards globally. BCCI oversees domestic cricket tournaments, the Indian national cricket team, and the management of cricket-related activities in the country. It is also responsible for organizing the Indian Premier League (IPL), one of the most lucrative cricket leagues in the world. The BCCI plays a key role in the global governance of cricket through its membership in the International Cricket Council (ICC)."
+            "description": ""
         },
         {
             "id": 5,
             "name": "Ashleigh Gardner",
-            "description": "Rohit Sharma is an Indian cricketer, widely regarded as one of the most talented batsmen in modern cricket. Born on April 30, 1987, he is known for his elegant stroke play and has an exceptional record in limited-overs cricket, including multiple double centuries in One-Day Internationals (ODIs). Rohit is the captain of the Indian national team in limited-overs formats (ODIs and T20Is) and is also the captain of Mumbai Indians in the Indian Premier League (IPL), leading the team to several championships. His ability to play big innings in crucial moments has earned him a reputation as one of the game's best."
+            "description": ""
         },
         {
             "id": 6,
             "name": "Beth Mooney",
-            "description": "The ICC Champions Trophy 2025 is a cricket tournament scheduled to be held in Pakistan & Dubai. It is a prestigious event organized by the International Cricket Council (ICC) featuring the top cricketing nations competing in a limited-overs format (50 overs per side). The Champions Trophy has been held intermittently, with the most recent tournament taking place in 2017. It is known for its shorter format and high-stakes matches. The 2025 edition will mark the return of the tournament after a long hiatus, and it is expected to showcase some of the best international cricket teams battling for supremacy."
+            "description": ""
         },
         {
             "id": 7,
             "name": "Gujarat Giants",
-            "description": "The ICC Champions Trophy 2025 is a cricket tournament scheduled to be held in Pakistan & Dubai. It is a prestigious event organized by the International Cricket Council (ICC) featuring the top cricketing nations competing in a limited-overs format (50 overs per side). The Champions Trophy has been held intermittently, with the most recent tournament taking place in 2017. It is known for its shorter format and high-stakes matches. The 2025 edition will mark the return of the tournament after a long hiatus, and it is expected to showcase some of the best international cricket teams battling for supremacy."
+            "description": ""
         },
         {
             "id": 8,
@@ -68,22 +68,22 @@
         {
             "id": 14,
             "name": "Javagal Srinath",
-            "description": "Northern Superchargers are a franchise 100-ball cricket side based in the English city of Leeds. The team represents the areas of North East England and Yorkshire in The Hundred competition, which first took place during the 2021 English and Welsh cricket season. Both sides play at Headingley Cricket Ground."
+            "description": ""
         },
         {
             "id": 15,
             "name": "Nitin Menon",
-            "description": "Sunrisers Hyderabad (stylised as SunRisers Hyderabad, abbr. SRH) are a professional franchise cricket team based in Hyderabad, Telangana, India, that plays in the Indian Premier League (IPL). The franchise is owned by Kalanithi Maran of the SUN Group and was founded in 2012 after the Hyderabad-based Deccan Chargers were terminated by the IPL. The team is currently coached by Daniel Vettori and captained by Pat Cummins. Their primary home ground is the Rajiv Gandhi International Cricket Stadium in Hyderabad, which has a capacity of 39,000"
+            "description": ""
         },
         {
             "id": 16,
             "name": "ICC",
-            "description": "The England men's cricket team represents England and Wales in international cricket. Since 1997, it has been governed by the England and Wales Cricket Board (ECB), having been previously governed by Marylebone Cricket Club (the MCC) since 1903. England, as a founding nation, is a Full Member of the International Cricket Council (ICC) with Test, One Day International (ODI) and Twenty20 International (T20I) status. Until the 1990s, Scottish and Irish players also played for England as those countries were not yet ICC members in their own right."
+            "description": ""
         },
         {
             "id": 17,
             "name": "India Cricket Team",
-            "description": "The England men's cricket team represents England and Wales in international cricket. Since 1997, it has been governed by the England and Wales Cricket Board (ECB), having been previously governed by Marylebone Cricket Club (the MCC) since 1903. England, as a founding nation, is a Full Member of the International Cricket Council (ICC) with Test, One Day International (ODI) and Twenty20 International (T20I) status. Until the 1990s, Scottish and Irish players also played for England as those countries were not yet ICC members in their own right."
+            "description": ""
         },
         {
             "id": 18,
@@ -159,6 +159,31 @@
             "id": 32,
             "name": "Royal Challengers Bengaluru",
             "description": "Royal Challengers Bengaluru, formerly known as Royal Challengers Bangalore, commonly known as RCB, is a professional franchise cricket team based in Bengaluru, Karnataka, competing in the Indian Premier League. Founded in 2008 by United Spirits, the team is named after the liquor brand, Royal Challenge. The M. Chinnaswamy Stadium in Bengaluru is their home ground."
+        },
+        {
+            "id": 33,
+            "name": "Shreyanka Patil",
+            "description": ""
+        },
+        {
+            "id": 34,
+            "name": "Sneh Rana",
+            "description": ""
+        },
+        {
+            "id": 35,
+            "name": "Suryakumar Yadav",
+            "description": ""
+        },
+        {
+            "id": 36,
+            "name": "Yashasvi Jaiswal",
+            "description": ""
+        },
+        {
+            "id": 37,
+            "name": "Ranji Trophy 2025",
+            "description": ""
         }
     ]
 }

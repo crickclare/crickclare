@@ -1,5 +1,6 @@
 'use client';
 import { useTheme } from "@/contexts/ThemeContext";
+import Link from "next/link";
 
 export default function AboutUs() {
     const { theme } = useTheme();
@@ -12,20 +13,25 @@ export default function AboutUs() {
                         About Us
                     </h1>
                     <p className="md:text-[16px] text-[15px] leading-normal text-gray-600 dark:text-gray-400 mb-4">
-                        Introducing Crick Clare by IndiaToday group, your go-to platform for all things sports! Whether you're a die-hard fan or just getting into the game, Crick Clare has everything you need to stay updated, engaged, and entertained.
+                        Welcome to <Link href={`/`} className="font-bold">Crick Clare</Link>, your ultimate cricket hub! Whether you're a lifelong cricket enthusiast or a newcomer to the sport, Crick Clare is your one-stop destination to stay connected to the world of cricket, offering the latest news, match updates, expert analysis, and much more.
                     </p>
                     <p className="md:text-[16px] text-[15px] leading-normal text-gray-600 dark:text-gray-400 mb-4">
-                        At Crick Clare, we're passionate about sports. From the latest news and match updates to in-depth analysis and expert insights, we've got you covered. Our Crick Clare team will bring you the most comprehensive coverage of your favorite sports. One of the highlights of Crick Clare is our live score feature. Never miss a moment of the action with real-time updates on matches happening around the world.
+                        At <Link href={`/`} className="font-bold">Crick Clare</Link>, we live and breathe cricket. Our goal is to bring you up-to-the-minute news and insights, keeping you fully engaged in every aspect of the game. From the latest headlines to in-depth articles, we cover everything cricket. Whether it's Test, ODIs, T20s, or any other format and cricket leagues, <Link href={`/`} className="font-bold">Crick Clare</Link> keeps you updated.
                     </p>
-                    <p className="md:text-[16px] text-[15px] leading-normal text-gray-600 dark:text-gray-400 mb-4">
-                        Whether it's a thrilling Test match, an intense T20 showdown, a nail-biting ODI encounter, a gripping football match, a fast-paced basketball game, or any other exciting sporting event, you can follow all the excitement right here on Crick Clare. But we're more than just scores and stats. Crick Clare is also your one-stop destination for sports news and articles.
-                    </p>
-                    <p className="md:text-[16px] text-[15px] leading-normal text-gray-600 dark:text-gray-400 mb-4">
-                        Stay informed about the latest developments in the world of sports, from match previews and match reports to post-match analysis and trending headlines. Moreover, our expert analysis and opinion pieces provide valuable insights into the strategies, tactics, and trends shaping modern sports. And for those who prefer to consume their sports content on the go, we've got you covered with our mobile-friendly website and app. You can access Crick Clare anytime, anywhere.
-                    </p>
-                    <p className="md:text-[16px] text-[15px] leading-normal text-gray-600 dark:text-gray-400 mb-4">
-                        With comprehensive coverage, real-time updates, and expert analysis, there's no better place to satisfy your sports cravings than Crick Clare.
-                    </p>
+                    <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mt-6 mb-4">
+                        What We Offer:
+                    </h2>
+                    <ul className="list-disc pl-6 space-y-4">
+                        <li className="md:text-[16px] text-[15px] leading-normal text-gray-600 dark:text-gray-400">
+                            <strong className="font-bold">Latest News & Updates:</strong> Never miss a moment of the action! Our real-time live updates let you follow matches happening around the world. With just a glance, stay on top of the latest cricket action, from thrilling Test series to the fast-paced T20s.
+                        </li>
+                        <li className="md:text-[16px] text-[15px] leading-normal text-gray-600 dark:text-gray-400">
+                            <strong className="font-bold">Cricket News & Features:</strong> Stay updated with the latest cricket developments. Whether it’s breaking news, match previews, post-match analysis, or trending topics, <Link href={`/`} className="font-bold">Crick Clare</Link> ensures you're always in the know.
+                        </li>
+                        <li className="md:text-[16px] text-[15px] leading-normal text-gray-600 dark:text-gray-400">
+                            <strong className="font-bold">Mobile-Friendly Access:</strong> With our responsive website, you can take <Link href={`/`} className="font-bold">Crick Clare</Link> with you wherever you go. Whether you're at the stadium, at home, or on the move, we ensure that you can access all the latest cricket action at your fingertips.
+                        </li>
+                    </ul>
                 </div>
             </div>
         </>
