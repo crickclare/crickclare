@@ -23,8 +23,8 @@ export default function Footer() {
                   src={theme === 'light' ? "/images/logo/light-logo.png" : "/images/logo/dark-logo.png"}
                   alt="CrickClare"
                   layout="intrinsic"
-                  width={200}
-                  height={50}
+                  width={180}
+                  height={63}
                 />
               </div>
             </Link>

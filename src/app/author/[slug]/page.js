@@ -17,19 +17,20 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${author.name} - Crick Clare`,
+    title: `${author.name} | Crick Clare`,
     description: author.bio,
     metadataBase: new URL(APP_URL),
     alternates: {
       canonical: `/author/${slug}`,
     },
     openGraph: {
-      title: `${author.name} - Crick Clare`,
+      title: `${author.name} | Crick Clare`,
       description: author.bio,
       siteName: "Crick Clare",
+      url: `${APP_URL}/author/${slug}`,
       images: [
         {
-          url: `${APP_URL}/default-author-image.jpg`, // You can replace this with an actual author image if available
+          url: `${APP_URL}/images/og/og-banner.png`, // You can replace this with an actual author image if available
           width: 1200,
           height: 630,
           alt: author.name,
@@ -40,9 +41,10 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${author.name} - Crick Clare`,
+      site:"@CrickClare",
+      title: `${author.name} | Crick Clare`,
       description: author.bio,
-      images: [`${APP_URL}/default-author-image.jpg`], // Replace with actual author image if available
+      images: [`${APP_URL}/images/og/og-banner.png`], // Replace with actual author image if available
     },
   }
 }
@@ -78,7 +80,6 @@ export default async function AuthorPage({ params }) {
     {
       "@context": "https://schema.org",
       "@type": "Person",
-      "@id": `${APP_URL}/author/${slug}#person`,
       name: author.name,
       description: author.bio,
       url: `${APP_URL}/author/${slug}`,
@@ -96,12 +97,6 @@ export default async function AuthorPage({ params }) {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Authors",
-          item: `${APP_URL}/authors`,
-        },
-        {
-          "@type": "ListItem",
-          position: 3,
           name: author.name,
           item: `${APP_URL}/author/${slug}`,
         },
@@ -110,27 +105,14 @@ export default async function AuthorPage({ params }) {
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      mainEntity: {
-        "@type": "ItemList",
-        itemListElement: sortedArticles.map((article, index) => ({
-          "@type": "ListItem",
-          position: index + 1,
-          url: `${APP_URL}/article/${article.slug}`,
-          name: article.title,
-        })),
-      },
       name: `Articles by ${author.name}`,
       description: `A collection of articles written by ${author.name}`,
       url: `${APP_URL}/author/${slug}`,
-      isPartOf: {
-        "@id": `${APP_URL}/#website`,
-      },
-      breadcrumb: {
-        "@id": "#breadcrumb",
-      },
-      author: {
-        "@id": `${APP_URL}/author/${slug}#person`,
-      },
+      image:`${APP_URL}/images/og/og-banner.png`,
+      // author: {
+      //   "@id": `${APP_URL}/author/${slug}`,
+      //   "@id": `${APP_URL}/author/${slug}`,
+      // },
     },
   ]
 

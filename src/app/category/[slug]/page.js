@@ -18,20 +18,20 @@ export async function generateMetadata({ params }) {
   }
 
   const metadata = {
-    title: `${category.name} - Crick Clare`,
+    title: `${category.name} | Crick Clare`,
     description: category.description,
     metadataBase: new URL(APP_URL),
     alternates: {
       canonical: `/category/${slug}`,
     },
     openGraph: {
-      title: `${category.name} - Crick Clare`,
+      title: `${category.name} | Crick Clare`,
       description: category.description,
       url: `${APP_URL}/category/${slug}`,
       siteName: "Crick Clare",
       images: [
         {
-          url: category.image || `${APP_URL}/default-og-image.jpg`,
+          url: `${APP_URL}/images/og/og-banner.png`,
           width: 1200,
           height: 630,
           alt: category.name,
@@ -42,9 +42,10 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${category.name} - Crick Clare`,
+      site:"@CrickClare",
+      title: `${category.name} | Crick Clare`,
       description: category.description,
-      images: [category.image || `${APP_URL}/default-og-image.jpg`],
+      images: [`${APP_URL}/images/og/og-banner.png`],
     },
   }
 
@@ -95,14 +96,13 @@ export default async function CategoryPage({ params }) {
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": `${APP_URL}/#organization`,
       name: "Crick Clare",
+      alternateName:'Crick Clare',
       url: APP_URL,
-      logo: `${APP_URL}/logo.png`,
+      logo: `${APP_URL}/images/logo/light-logo.png`,
       sameAs: [
-        "https://www.facebook.com/yoursitename",
-        "https://twitter.com/yoursitename",
-        "https://www.linkedin.com/company/yoursitename",
+        "https://youtube.com/@crick_clare?si=IpnbnfehR9xyySLa",
+        "https://www.instagram.com/crick_clare"
       ],
     },
     {
@@ -126,24 +126,10 @@ export default async function CategoryPage({ params }) {
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      mainEntity: {
-        "@type": "ItemList",
-        itemListElement: sortedArticles.map((article, index) => ({
-          "@type": "ListItem",
-          position: index + 1,
-          url: `${APP_URL}/article/${article.slug}`,
-          name: article.title,
-        })),
-      },
       name: category.name,
       description: category.description,
       url: `${APP_URL}/category/${slug}`,
-      isPartOf: {
-        "@id": `${APP_URL}/#website`,
-      },
-      breadcrumb: {
-        "@id": "#breadcrumb",
-      },
+      image:`${APP_URL}/images/og/og-banner.png`
     },
   ]
 

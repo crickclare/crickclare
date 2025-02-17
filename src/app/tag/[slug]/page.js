@@ -18,20 +18,20 @@ export async function generateMetadata({ params }) {
   }
 
   const metadata = {
-    title: `${tag.name} - Crick Clare`,
+    title: `${tag.name} | Crick Clare`,
     description: tag.description,
     metadataBase: new URL(APP_URL),
     alternates: {
       canonical: `/tag/${slug}`,
     },
     openGraph: {
-      title: `${tag.name} - Crick Clare`,
+      title: `${tag.name} | Crick Clare`,
       description: tag.description,
       url: `${APP_URL}/tag/${slug}`,
       siteName: "Crick Clare",
       images: [
         {
-          url: `${APP_URL}/default-og-image.jpg`,
+          url: `${APP_URL}/images/og/og-banner.png`,
           width: 1200,
           height: 630,
           alt: tag.name,
@@ -42,9 +42,10 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${tag.name} - Crick Clare`,
+      site:"@CrickClare",
+      title: `${tag.name} | Crick Clare`,
       description: tag.description,
-      images: [`${APP_URL}/default-og-image.jpg`],
+      images: [`${APP_URL}/images/og/og-banner.png`],
     },
   }
 
@@ -75,7 +76,7 @@ export default async function TagPage({ params }) {
       const dateTimeA = new Date(`${a.date} ${a.time}`).getTime()
       const dateTimeB = new Date(`${b.date} ${b.time}`).getTime()
 
-      return dateTimeB - dateTimeA // Sort latest first
+      return dateTimeB | dateTimeA // Sort latest first
     })
   }
 
@@ -85,14 +86,13 @@ export default async function TagPage({ params }) {
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": `${APP_URL}/#organization`,
       name: "Crick Clare",
+      alternateName:'Crick Clare',
       url: APP_URL,
-      logo: `${APP_URL}/logo.png`,
+      logo: `${APP_URL}/images/logo/light-logo.png`,
       sameAs: [
-        "https://www.facebook.com/yoursitename",
-        "https://twitter.com/yoursitename",
-        "https://www.linkedin.com/company/yoursitename",
+        "https://youtube.com/@crick_clare?si=IpnbnfehR9xyySLa",
+        "https://www.instagram.com/crick_clare"
       ],
     },
     {
@@ -108,12 +108,6 @@ export default async function TagPage({ params }) {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Tags",
-          item: `${APP_URL}/tags`,
-        },
-        {
-          "@type": "ListItem",
-          position: 3,
           name: tag.name,
           item: `${APP_URL}/tag/${slug}`,
         },
@@ -122,24 +116,10 @@ export default async function TagPage({ params }) {
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      mainEntity: {
-        "@type": "ItemList",
-        itemListElement: sortedArticles.map((article, index) => ({
-          "@type": "ListItem",
-          position: index + 1,
-          url: `${APP_URL}/article/${article.slug}`,
-          name: article.title,
-        })),
-      },
       name: `Articles tagged with ${tag.name}`,
       description: tag.description,
       url: `${APP_URL}/tag/${slug}`,
-      isPartOf: {
-        "@id": `${APP_URL}/#website`,
-      },
-      breadcrumb: {
-        "@id": "#breadcrumb",
-      },
+      image:`${APP_URL}/images/og/og-banner.png`
     },
   ]
 

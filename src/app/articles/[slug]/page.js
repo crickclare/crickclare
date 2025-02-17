@@ -31,6 +31,7 @@ export async function generateMetadata({ params }, parent) {
       canonical: `/articles/${slug}`,
     },
     openGraph: {
+      url: `${APP_URL}/articles/${slug}`,
       title: article.title,
       description: article.excerpt,
       type: "article",
@@ -39,6 +40,7 @@ export async function generateMetadata({ params }, parent) {
       images: [article.image, ...previousImages],
     },
     twitter: {
+      site:"@CrickClare",
       card: "summary_large_image",
       title: article.title,
       description: article.excerpt,
