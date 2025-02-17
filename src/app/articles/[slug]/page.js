@@ -8,7 +8,7 @@ import tagsData from "../../../data/tags.json"
 import RelatedArticles from "@/components/RelatedArticles"
 import ArticleJsonLd from "@/components/ArticleJsonLd"
 import { APP_URL } from "@/config/themeConfig"
-// import Breadcrumb from "../../../components/Breadcrumb"
+import Breadcrumb from "@/components/Breadcrumb"
 
 export async function generateMetadata({ params }, parent) {
   const { slug } = await params
@@ -116,13 +116,12 @@ export default async function ArticlePage({ params }) {
     notFound();
   }
 
-  // const breadcrumbItems = [{ label: "Articles", href: "/articles" }, { label: article.title }]
-
   return (
     <>
       <ArticleJsonLd article={article} />
       <div className="max-w-7xl mx-auto px-4 py-12">
         <article className="max-w-3xl mx-auto">
+          <Breadcrumb items={[{ label: article.title }]} />
           <div className="mb-8">
             <h1 className="xl:text-4xl lg:text-3xl md:text-2xl text-xl font-bold mb-4 text-gray-800 dark:text-gray-100">{article.title}</h1>
             <div className="flex items-center flex-wrap justify-between gap-3 mb-6">

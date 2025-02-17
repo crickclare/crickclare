@@ -1,8 +1,14 @@
+'use client';
+
 import Link from "next/link"
-import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react"
+import { Twitter, Instagram, Youtube } from "lucide-react"
 import Image from "next/image"
+import { useTheme } from "@/contexts/ThemeContext"
 
 export default function Footer() {
+
+  const { theme } = useTheme();
+
   return (
     <footer className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
       <div className="container mx-auto px-4 py-8">
@@ -14,7 +20,7 @@ export default function Footer() {
             >
               <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
                 <Image
-                  src='/images/logo/light-logo.png'
+                  src={theme === 'light' ? "/images/logo/light-logo.png" : "/images/logo/dark-logo.png"}
                   alt="CrickClare"
                   layout="intrinsic"
                   width={200}
