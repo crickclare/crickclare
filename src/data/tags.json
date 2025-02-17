@@ -184,6 +184,26 @@
             "id": 37,
             "name": "Ranji Trophy 2025",
             "description": ""
+        },
+        {
+            "id": 38,
+            "name": "Mumbai Indians",
+            "description": ""
+        },
+        {
+            "id": 39,
+            "name": "Mujeeb Ur Rahman",
+            "description": ""
+        },
+        {
+            "id": 40,
+            "name": "AM Ghazanfar",
+            "description": ""
+        },
+        {
+            "id": 41,
+            "name": "SA20 2025",
+            "description": ""
         }
     ]
 }
