@@ -1,19 +1,18 @@
-
-import AboutUsPage from "@/components/AboutUsPage";
-import { APP_URL } from "@/config/themeConfig";
-import { JsonLd } from "react-schemaorg";
+import TermsPage from '@/components/TermsPage';
+import { APP_URL } from '@/config/themeConfig';
+import React from 'react';
 
 export async function generateMetadata() {
     return {
-        title: 'About Us | Crick Clare',
+        title: 'Terms & Conditions | Crick Clare',
         description: 'Get Schedules of International and Domestic cricket matches along with Latest News and ICC Cricket Rankings of Players on CrickClare',
-        metadataBase: `${APP_URL}/about-us`,
+        metadataBase: `${APP_URL}/terms-conditions`,
         alternates: {
-            canonical: `${APP_URL}/about-us`,
+            canonical: `${APP_URL}/terms-conditions`,
         },
         openGraph: {
-            url: `${APP_URL}/about-us`,
-            title: 'About Us | Crick Clare',
+            url: `${APP_URL}/terms-conditions`,
+            title: 'Terms & Conditions | Crick Clare',
             description: 'Get Schedules of International and Domestic cricket matches along with Latest News and ICC Cricket Rankings of Players on CrickClare',
             type: "website",
             images: `${APP_URL}/images/og/og-banner.png`,
@@ -23,7 +22,7 @@ export async function generateMetadata() {
         twitter: {
             site: "@CrickClare",
             card: "summary_large_image",
-            title: 'About Us | Crick Clare',
+            title: 'Terms & Conditions | Crick Clare',
             description: 'Get Schedules of International and Domestic cricket matches along with Latest News and ICC Cricket Rankings of Players on CrickClare',
             images: `${APP_URL}/images/og/og-banner.png`,
             creator: '@CrickClare'
@@ -57,18 +56,21 @@ const jsonLd = [
             {
                 "@type": "ListItem",
                 position: 2,
-                name: 'About Us',
-                item: `${APP_URL}/about-us`,
+                name: 'Terms & Conditions',
+                item: `${APP_URL}/terms-conditions`,
             },
         ],
     },
 ]
 
-export default function AboutUs() {
+const Terms = () => {
     return (
         <>
-             <JsonLd item={jsonLd} />
-            <AboutUsPage/>
+            <TermsPage />
         </>
     );
-}
+};
+
+export default Terms;
+
+

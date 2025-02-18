@@ -1,19 +1,19 @@
-
-import AboutUsPage from "@/components/AboutUsPage";
-import { APP_URL } from "@/config/themeConfig";
-import { JsonLd } from "react-schemaorg";
+import PrivacyPage from '@/components/PrivacyPage';
+import { APP_URL } from '@/config/themeConfig';
+import React from 'react';
+import { JsonLd } from 'react-schemaorg';
 
 export async function generateMetadata() {
     return {
-        title: 'About Us | Crick Clare',
+        title: 'Privacy Policy | Crick Clare',
         description: 'Get Schedules of International and Domestic cricket matches along with Latest News and ICC Cricket Rankings of Players on CrickClare',
-        metadataBase: `${APP_URL}/about-us`,
+        metadataBase: `${APP_URL}/privacy-policies`,
         alternates: {
-            canonical: `${APP_URL}/about-us`,
+            canonical: `${APP_URL}/privacy-policies`,
         },
         openGraph: {
-            url: `${APP_URL}/about-us`,
-            title: 'About Us | Crick Clare',
+            url: `${APP_URL}/privacy-policies`,
+            title: 'Privacy Policy | Crick Clare',
             description: 'Get Schedules of International and Domestic cricket matches along with Latest News and ICC Cricket Rankings of Players on CrickClare',
             type: "website",
             images: `${APP_URL}/images/og/og-banner.png`,
@@ -23,7 +23,7 @@ export async function generateMetadata() {
         twitter: {
             site: "@CrickClare",
             card: "summary_large_image",
-            title: 'About Us | Crick Clare',
+            title: 'Privacy Policy | Crick Clare',
             description: 'Get Schedules of International and Domestic cricket matches along with Latest News and ICC Cricket Rankings of Players on CrickClare',
             images: `${APP_URL}/images/og/og-banner.png`,
             creator: '@CrickClare'
@@ -57,18 +57,20 @@ const jsonLd = [
             {
                 "@type": "ListItem",
                 position: 2,
-                name: 'About Us',
-                item: `${APP_URL}/about-us`,
+                name: 'Privacy Policy',
+                item: `${APP_URL}/privacy-policies`,
             },
         ],
     },
 ]
 
-export default function AboutUs() {
+const Privacy = () => {
     return (
         <>
-             <JsonLd item={jsonLd} />
-            <AboutUsPage/>
+            <JsonLd item={jsonLd} />
+            <PrivacyPage />
         </>
     );
-}
+};
+
+export default Privacy;

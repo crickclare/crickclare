@@ -133,22 +133,19 @@ export default function Footer() {
         <div className="flex flex-col lg:flex-row justify-between lg:items-center sm:gap-1 gap-2">
           <p className="text-gray-600 dark:text-gray-400 lg:text-lg md:text-md sm:text-sm text-sm leading-relaxed font-normal">© 2024 - <Link href="/" className='text-gray-600 dark:text-gray-400 font-bold'>Crick Clare</Link>. All rights reserved.</p>
           <div className="flex items-center md:flex-nowrap flex-wrap lg:justify-center xl:gap-x-[25px] lg:gap-x-4 gap-x-3 gap-y-3">
-            <Link href="#" className="text-black-200 lg:text-lg md:text-md sm:text-sm text-sm leading-relaxed font-normal hover:text-green-750">Privacy policy</Link>
+            <Link href="/privacy-policies" className="text-black-200 lg:text-lg md:text-md sm:text-sm text-sm leading-relaxed font-normal hover:text-green-750">Privacy policy</Link>
             <div className="w-[1px] h-5 bg-gray-600 border-0 block"></div>
-            <Link href="#" className="text-black-200 lg:text-lg md:text-md sm:text-sm text-sm leading-relaxed font-normal hover:text-green-750">Terms & conditions</Link>
+            <Link href="/terms-conditions" className="text-black-200 lg:text-lg md:text-md sm:text-sm text-sm leading-relaxed font-normal hover:text-green-750">Terms & conditions</Link>
             <div className="w-[1px] h-5 bg-gray-600 border-0 block"></div>
             <ul className='flex items-center flex-wrap gap-x-4 gap-y-3'>
-              <li>
+              {/* <li>
                 <Link href="#" className="text-20 text-gray-600 hover:text-blue-600 dark:hover:text-blue-400"><i className="fa-brands fa-facebook-f"></i></Link>
               </li>
               <li>
                 <Link href="#" className="text-20 text-gray-600 hover:text-blue-600 dark:hover:text-blue-400"><i className="fa-brands fa-twitter"></i></Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="https://youtube.com/@crick_clare?si=8Ukzb04zwCZ5B_v3" className="text-20 text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"><i className="fa-brands fa-youtube"></i></Link>
-              </li>
-              <li>
-                <Link href="#" className="text-20 text-gray-600 hover:text-blue-600 dark:hover:text-blue-400"><i className="fa-brands fa-medium"></i></Link>
               </li>
               <li>
                 <Link href="https://www.instagram.com/crick_clare" className="text-20 text-gray-600 hover:text-blue-600 dark:hover:text-blue-400"><i className="fa-brands fa-instagram"></i></Link>

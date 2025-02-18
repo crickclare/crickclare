@@ -86,7 +86,7 @@ export default function TagClient({ tag, tagArticles }) {
           )}
         </>
       ) : (
-        <p className="md:text-[16px] text-[15px] leading-normal text-gray-600 dark:text-gray-400 mb-8">
+        <p className="md:text-[16px] text-[15px] leading-normal text-gray-600 dark:text-gray-400 mb-8 text-center">
           No articles found with this tag.
         </p>
       )}
