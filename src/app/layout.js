@@ -5,6 +5,7 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import ScrollToTop from "@/components/ScrollToTop"
 import BackToTop from "@/components/BackToTop"
+import '@fortawesome/fontawesome-free/css/all.css';
 
 const inter = Inter({ subsets: ["latin"] })
 
