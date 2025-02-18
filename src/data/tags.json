@@ -209,6 +209,16 @@
             "id": 42,
             "name": "Morne Morkel",
             "description": ""
+        },
+        {
+            "id": 43,
+            "name": "Lockie Ferguson",
+            "description": ""
+        },
+        {
+            "id": 44,
+            "name": "Kyle Jamieson",
+            "description": ""
         }
     ]
 }

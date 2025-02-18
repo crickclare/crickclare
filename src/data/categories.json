@@ -124,6 +124,24 @@
                 "Champion Trophy 2025",
                 "ACB"
             ]
+        },
+        {
+            "id": 9,
+            "name": "New Zealand Cricket",
+            "slug": "new-zealand-cricket",
+            "description": "The New Zealand national cricket team represents New Zealand in men's international cricket. Nicknamed the Black Caps they played their first Test in 1930 against England in Christchurch, becoming the fifth country to play Test cricket. From 1930 New Zealand had to wait until 1956, more than 26 years, for its first Test victory, against the West Indies at Eden Park in Auckland. They played their first ODI in the 1972–73 season against Pakistan in Christchurch. New Zealand are the inaugural champions of WTC which they won in 2021 and they have also won ICC CT in 2000. They have played in the CWC final twice and the T20 WC final once.",
+            "longDescription": "The New Zealand national cricket team represents New Zealand in men's international cricket. Nicknamed the Black Caps they played their first Test in 1930 against England in Christchurch, becoming the fifth country to play Test cricket. From 1930 New Zealand had to wait until 1956, more than 26 years, for its first Test victory, against the West Indies at Eden Park in Auckland. They played their first ODI in the 1972–73 season against Pakistan in Christchurch. New Zealand are the inaugural champions of WTC which they won in 2021 and they have also won ICC CT in 2000. They have played in the CWC final twice and the T20 WC final once.",
+            "parentId": 1,
+            "image": "https://www.crickclare.com/images/new-zealand-cricket.jpg",
+            "keywords": [
+                "New Zealand",
+                "national team",
+                "Test cricket",
+                "ODI",
+                "T20I",
+                "Champion Trophy 2025",
+                "NZCB"
+            ]
         }
     ]
 }
