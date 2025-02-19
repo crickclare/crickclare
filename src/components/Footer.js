@@ -145,7 +145,7 @@ export default function Footer() {
                 <Link href="#" className="text-20 text-gray-600 hover:text-blue-600 dark:hover:text-blue-400"><i className="fa-brands fa-twitter"></i></Link>
               </li> */}
               <li>
-                <Link href="https://youtube.com/@crick_clare?si=8Ukzb04zwCZ5B_v3" className="text-20 text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"><i className="fa-brands fa-youtube"></i></Link>
+                <Link href="https://youtube.com/@crick_clare" className="text-20 text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"><i className="fa-brands fa-youtube"></i></Link>
               </li>
               <li>
                 <Link href="https://www.instagram.com/crick_clare" className="text-20 text-gray-600 hover:text-blue-600 dark:hover:text-blue-400"><i className="fa-brands fa-instagram"></i></Link>

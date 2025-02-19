@@ -50,7 +50,7 @@ const jsonLd = [
     url: APP_URL,
     logo: `${APP_URL}/images/logo/light-logo.png`,
     sameAs: [
-      "https://youtube.com/@crick_clare?si=IpnbnfehR9xyySLa",
+      "https://youtube.com/@crick_clare",
       "https://www.instagram.com/crick_clare"
     ],
   }
