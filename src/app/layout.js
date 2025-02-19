@@ -35,7 +35,6 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-JSD7HZC2E3');
           `}
         </Script>
-        <meta name="google-site-verification" content="l1QUfQY6iO_z2GQnPmRrK3i3U2MKhyAssi4hezQZ3Wk" />
       </head>
       <body className={inter.className} suppressHydrationWarning>
         <ThemeProvider>
