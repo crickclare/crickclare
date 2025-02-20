@@ -28,7 +28,8 @@ export const categories = [
       { id: 2, name: "Australia", path: "/category/australian-cricket" },
       { id: 3, name: "England", path: "/category/englend-cricket" },
       { id: 4, name: "Afghanistan", path: "/category/afghanistan-cricket" },
-      { id: 5, name: "New Zealand", path: "/category/new-zealand-cricket" }
+      { id: 5, name: "New Zealand", path: "/category/new-zealand-cricket" },
+      { id: 6, name: "Pakistan", path: "/category/pakistan-cricket" }
     ],
   },
   {

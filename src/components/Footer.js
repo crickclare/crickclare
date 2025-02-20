@@ -32,7 +32,8 @@ export default function Footer() {
         { name: 'Australia', slug: '/category/australian-cricket' },
         { name: 'England', slug: '/category/englend-cricket' },
         { name: 'Afghanistan', slug: '/category/afghanistan-cricket' },
-        { name: "New Zealand", slug: "/category/new-zealand-cricket" }
+        { name: "New Zealand", slug: "/category/new-zealand-cricket" },
+        { name: "Pakistan", slug: "/category/pakistan-cricket" }
       ]
     },
     {

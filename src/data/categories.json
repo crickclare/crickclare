@@ -142,6 +142,24 @@
                 "Champion Trophy 2025",
                 "NZCB"
             ]
+        },
+        {
+            "id": 10,
+            "name": "Pakistan Cricket",
+            "slug": "pakistan-cricket",
+            "description": "The Pakistan national cricket team has represented Pakistan in international cricket since 1952. It is controlled by the Pakistan Cricket Board (PCB), the governing body for cricket in Pakistan, which is a Full Member of the International Cricket Council (ICC). Pakistan compete in cricket tours and tournaments sanctioned by the PCB and other regional or international cricket bodies in Test, One Day International (ODI), and Twenty20 International (T20) formats. Pakistan are current ICC Champions Trophy holders.",
+            "longDescription": "The Pakistan national cricket team has represented Pakistan in international cricket since 1952. It is controlled by the Pakistan Cricket Board (PCB), the governing body for cricket in Pakistan, which is a Full Member of the International Cricket Council (ICC). Pakistan compete in cricket tours and tournaments sanctioned by the PCB and other regional or international cricket bodies in Test, One Day International (ODI), and Twenty20 International (T20) formats. Pakistan are current ICC Champions Trophy holders.",
+            "parentId": 1,
+            "image": "https://www.crickclare.com/images/new-zealand-cricket.jpg",
+            "keywords": [
+                "Pakistan",
+                "national team",
+                "Test cricket",
+                "ODI",
+                "T20I",
+                "Champion Trophy 2025",
+                "PCB"
+            ]
         }
     ]
 }
