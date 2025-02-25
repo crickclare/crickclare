@@ -254,6 +254,26 @@
             "id": 51,
             "name": "World Test Championship 2025 Final",
             "description": ""
+        },
+        {
+            "id": 52,
+            "name": "Chennai Super Kings",
+            "description": "Chennai Super Kings (CSK) is an Indian professional T20 cricket franchise based in Chennai, Tamil Nadu. The team competes in the Indian Premier League (IPL) and was one of the eight franchises incorporated when the league was established in 2008. The team plays its home matches at the M. A. Chidambaram Stadium and is owned by Chennai Super Kings Cricket."
+        },
+        {
+            "id": 53,
+            "name": "Kolkata Knight Riders",
+            "description": "Kolkata Knight Riders (KKR) are a professional T20 franchise cricket team representing the city of Kolkata in the Indian Premier League. The franchise is owned by Bollywood actor Shah Rukh Khan, actress Juhi Chawla, and her spouse Jay Mehta. Their home ground is the Eden Gardens, Kolkata."
+        },
+        {
+            "id": 54,
+            "name": "Dwayne Bravo",
+            "description": ""
+        },
+        {
+            "id": 55,
+            "name": "Sridharan Sriram",
+            "description": ""
         }
     ]
 }
