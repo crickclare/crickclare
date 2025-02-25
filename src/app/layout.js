@@ -8,6 +8,7 @@ import BackToTop from "@/components/BackToTop"
 import '@fortawesome/fontawesome-free/css/all.css';
 import Script from "next/script"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -48,6 +49,7 @@ export default function RootLayout({ children }) {
           <BackToTop />
         </ThemeProvider>
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   )
