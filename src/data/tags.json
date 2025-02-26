@@ -274,6 +274,16 @@
             "id": 55,
             "name": "Sridharan Sriram",
             "description": ""
+        },
+        {
+            "id": 56,
+            "name": "Delhi Capitals",
+            "description": "Delhi Capitals are a professional franchise cricket team based in Delhi that plays in the Indian Premier League (IPL). The franchise is jointly owned by the GMR Group and the JSW Sports. The team's home ground is Arun Jaitley Stadium (formerly Feroz Shah Kotla), located in New Delhi. The new captain of this team is yet to be decided while it is coached by Hemang Badani. The Capitals appeared in their first IPL final in 2020 against Mumbai Indians under former captain Shreyas Iyer."
+        },
+        {
+            "id": 57,
+            "name": "Matthew Mott",
+            "description": ""
         }
     ]
 }
